@@ -1,0 +1,18 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 14404863,
+    "fog_color": 14404863,
+    "water_color": 7174873,
+    "water_fog_color": 7174873,
+    "grass_color": 10337031,
+    "foliage_color": 10337031,
+    "ambient_sound": "minecraft:music_disc.ward"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

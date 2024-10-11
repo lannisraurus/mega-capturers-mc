@@ -1,0 +1,101 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 1676416,
+    "fog_color": 1676416,
+    "water_color": 6729922,
+    "water_fog_color": 6394526,
+    "grass_color": 54963,
+    "foliage_color": 54963,
+    "ambient_sound": "minecraft:music_disc.cat",
+    "particle": {
+      "options": {
+        "type": "minecraft:glow"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {
+    "water_creature": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 70,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 100,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cat",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
